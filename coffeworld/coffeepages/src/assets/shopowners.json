@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1,
+        "name": "Caffe Greco",
+        "image": "assets/images/item1.jpg",
+        "discription":"In the steamy swirl of mornings embrace, A symphony of beans, a dance of graceBrewed with love, each sip a cozy place.",
+        "location": {
+            "address": "Via diet Condotta, 86",
+            "city": "Rome",
+            "country": "Italy" 
+        },
+        "coffees": [
+            {
+                "id": 1,
+                "style": "Espresso",
+                "description": "A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground coffee beans.",
+                "likes": 10
+            },
+            {
+                "id": 2,
+                "style": "Cappuccino",
+                "description": "An espresso-based coffee drink that originated in Italy, topped with foamed milk.",
+                "likes": 15
+            },
+            {
+                "id": 3,
+                "style": "Affogato",
+                "description": "A coffee-based dessert consisting of a scoop of vanilla gelato or ice cream topped or 'drowned' with a shot of hot espresso.",
+                "likes": 8
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Caffee Florian",
+        "image": "assets/images/item2.jpg",
+        "discription": "In the art of brewing, passion's flame ignites, Each bean a story, each cup a delight.From maker's hand to lips, a journey bright.",
+        "location": {
+            "address": "Piazza San Marco, 57",
+            "city": "Venice",
+            "country": "Italy"
+        },
+        "coffees": [
+            {
+                "id": 1,
+                "style": "Ristretto",
+                "description": "A very short shot of espresso coffee, typically served in a small cup.",
+                "likes": 12
+            },
+            {
+                "id": 2,
+                "style": "Macchiato",
+                "description": "An espresso coffee drink with a small amount of milk, usually foamed.",
+                "likes": 18
+            },
+            {
+                "id": 3,
+                "style": "Lunge",
+                "description": "A long espresso drink similar to an Americano, but with the ratio of coffee to water being much higher.",
+                "likes": 9
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Caffe Reggio",
+        "image": "assets/images/item3.jpg",
+        "discription": "In the heart of beans, secrets unfurl, A brew of comfort, in every swirl.For coffee makers, it's joy they hurl.",
+        "location": {
+            "address": "119 MacDougal St",
+            "city": "New York",
+            "country": "USA"
+        },
+        "coffees": [
+            {
+                "id": 1,
+                "style": "Latte",
+                "description": "A coffee drink made with espresso and steamed milk.",
+                "likes": 20
+            },
+            {
+                "id": 2,
+                "style": "Americano",
+                "description": "A coffee drink prepared by diluting an espresso with hot water.",
+                "likes": 14
+            },
+            {
+                "id": 3,
+                "style": "Flat White",
+                "description": "An espresso-based coffee drink consisting of espresso with macrofoam (steamed milk with small, fine bubbles and a glossy or velvety consistency).",
+                "likes": 11
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Caffe Sant Eustachio",
+        "image": "assets/images/item4.jpg",
+        "discription": "In the alchemy of beans, dreams awake,A potion brewed, for hearts to partake. For coffee makers, each moment a keepsake.",
+        "location": {
+            "address": "Piazza di Sant Eustachio, 82",
+            "city": "Rome",
+            "country": "Italy"
+        },
+        "coffees": [
+            {
+                "id": 1,
+                "style": "Espresso Romano",
+                "description": "An espresso served with a slice of lemon.",
+                "likes": 9
+            },
+            {
+                "id": 2,
+                "style": "Gran Caffe",
+                "description": "A traditional Italian coffee made with espresso, hot chocolate, and whipped cream.",
+                "likes": 17
+            },
+            {
+                "id": 3,
+                "style": "Maraschino",
+                "description": "An espresso-based coffee drink that includes cocoa powder and milk froth or whipped cream.",
+                "likes": 13
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Café Regatta",
+        "image": "assets/images/item5.jpg",
+        "discription": "In the quiet hum of the coffee's song, A symphony of flavors, rich and strong. For coffee makers, where they belong.",
+        "location": {
+            "address": "Riva di San Treviso",
+            "city": "Venice",
+            "country": "Italy"
+        },
+        "coffees": [
+            {
+                "id": 1,
+                "style": "Venetian Mocha",
+                "description": "A traditional Venetian coffee made with espresso, hot chocolate, and whipped cream.",
+                "likes": 16
+            },
+            {
+                "id": 2,
+                "style": "Bickering",
+                "description": "An Italian coffee drink made of espresso, chocolate, and whole milk served layered in a small glass.",
+                "likes": 21
+            },
+            {
+                "id": 3,
+                "style": "Caffe Cornetto",
+                "description": "An espresso 'corrected' with a shot of liquor, usually grappa, brandy, or sambuca.",
+                "likes": 10
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Coffee Greco di Via Veneto",
+        "image": "assets/images/item6.jpg",
+        "discription": "With every pour, a ritual divine, In every cup, a sip of sunshine. For coffee makers, joy's sweet wine.",
+        "location": {
+            "address": "Via diet Condotta, 86",
+            "city": "Rome",
+            "country": "Italy"
+        },
+        "coffees": [
+            {
+                "id": 1,
+                "style": "Caffe orzo",
+                "description": "A coffee substitute made from ground roasted barley, commonly found in Italy.",
+                "likes": 8
+            },
+            {
+                "id": 2,
+                "style": "Bickering",
+                "description": "An Italian coffee drink made of espresso, chocolate, and whole milk served layered in a small glass.",
+                "likes": 11
+            },
+            {
+                "id": 3,
+                "style": "Maraschino",
+                "description": "An espresso-based coffee drink that includes cocoa powder and milk froth or whipped cream.",
+                "likes": 13
+            }
+        ]
+    }
+]
