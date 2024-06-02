@@ -17,6 +17,7 @@
   line-height: 1 !important;
   /* align-items: center !important; */
   justify-content: center !important;
+  color: #b8b4aa;
   /* margin-bottom: 20px !important; */
 } 
 
@@ -26,6 +27,7 @@
   margin-top: 20px;
   align-items: center !important;
   align-self: self-start !important;
+  color: #b8b4aa;
   /* padding: 20px; */
 }
 
@@ -50,6 +52,7 @@
   font-family: secondFont;
   padding-bottom: 20px;
   line-height: 30px;
+  color: #b8b4aa;
   /* font-weight: 100; */
 
 }
@@ -61,6 +64,7 @@
   padding-bottom: 20px;
   line-height: 20px;
   justify-content: center;
+  color: #b8b4aa;
   /* font-weight: 100; */
 
 }
