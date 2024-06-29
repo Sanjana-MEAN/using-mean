@@ -9,18 +9,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import {MatDividerModule} from '@angular/material/divider';
+
 
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { ShopOwnersComponent } from './shop-owners/shop-owners.component';
 
 import { ShopOwnersService} from './shop-owners.service';
+import { CoffeeComponent } from './coffee/coffee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ShopOwnersComponent
+    ShopOwnersComponent,
+    CoffeeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,9 @@ import { ShopOwnersService} from './shop-owners.service';
     MatGridListModule,
     MatCardModule, 
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatPaginatorModule,
+    MatDividerModule
   ],
   providers: [
     ShopOwnersService

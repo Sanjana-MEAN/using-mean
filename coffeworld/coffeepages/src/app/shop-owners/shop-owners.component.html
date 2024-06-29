@@ -1,5 +1,5 @@
 <div class="container">
-<mat-card *ngFor="let shopowner of shopowners" class="example-card">
+<mat-card *ngFor="let shopowner of shopowners" class="example-card" (click)="viewCoffees(shopowner.id)">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image">
         <img mat-card-image [src]="" alt="">
