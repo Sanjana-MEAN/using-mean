@@ -1,6 +1,7 @@
 import { Component ,OnInit} from '@angular/core';
 import { ShopOwnersService } from '../shop-owners.service';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-coffee',
@@ -13,7 +14,7 @@ export class CoffeeComponent implements OnInit{
   coffees: any[] = [];
   displayAllCoffee: boolean = false;
 
-  constructor(public shopOwnersService: ShopOwnersService, public activatedRoute: ActivatedRoute){}
+  constructor(public shopOwnersService: ShopOwnersService, public activatedRoute: ActivatedRoute, public router: Router){}
 
   ngOnInit(){
     const id = +(this.activatedRoute.snapshot.params['id'] ?? 0);
@@ -39,6 +40,9 @@ export class CoffeeComponent implements OnInit{
       this.shopowner = shopowners;
       this.coffees = shopowners.coffees;
       })
+  }
+  backButton(){
+    this.router.navigate(['/shop-owners']);
   }
 
 }

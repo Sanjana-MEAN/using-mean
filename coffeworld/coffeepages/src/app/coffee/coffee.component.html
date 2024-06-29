@@ -32,10 +32,15 @@
         <div class="mat-flat-button" *ngFor="let cost of coffee.costs | keyvalue">
           <button mat-button>{{cost.key}} - {{cost.value}}</button>
         </div>
+      </mat-card-actions> 
+      <mat-card-actions class="all-buttons">
+        <div class="mat-stroked-button Back" (click)="backButton()">
+          <button mat-stroked-button>Back</button>
+        </div>
         <div class="mat-stroked-button">
           <button mat-stroked-button>Add To Cart</button>
         </div>
-      </mat-card-actions> 
+      </mat-card-actions>
     </mat-card>
   </div>
   

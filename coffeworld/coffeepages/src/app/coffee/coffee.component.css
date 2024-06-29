@@ -65,16 +65,17 @@
   color: #372c2a;
 }
 .favorite-icon, .share-icon{
-  margin-right: 10px;
+  margin-right: 40px;
 }
 .mat-flat-button{
   background-color: bisque;
   border-radius: 30px;
   padding: 3px;
-  margin-right: 20px
 }
 .mat-stroked-button{
   background-color: bisque;
+  margin-left: 40px;
+  margin-right: 20px;
 }
 @font-face {
   font-family: myFont;
