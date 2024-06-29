@@ -19,13 +19,15 @@ import { ShopOwnersComponent } from './shop-owners/shop-owners.component';
 
 import { ShopOwnersService} from './shop-owners.service';
 import { CoffeeComponent } from './coffee/coffee.component';
+import { AllCoffeesComponent } from './all-coffees/all-coffees.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ShopOwnersComponent,
-    CoffeeComponent
+    CoffeeComponent,
+    AllCoffeesComponent
   ],
   imports: [
     BrowserModule,
